@@ -30,8 +30,9 @@ print(fetch_deepl("书山有路勤为径", from_lang="zh", to_lang="de"))
 # Es gibt einen Weg durch die Berge des Lernens und des Fleißes
 ```
 
-Supported languages can be obtained the deepl homepage, as of today:
+Supported languages can be obtained from deepl's homepage, as of today:
 ```python
+from pprint import pprint
 from fetch_deepl import lang_dict
 pprint(lang_dict)
 ```
