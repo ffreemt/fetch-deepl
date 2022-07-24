@@ -6,7 +6,8 @@ Fetch translation text from a deepl-fastapi API.
 ## Install it
 
 ```shell
-pip install fetch_deepl
+pip install fetch-deepl
+
 # pip install git+https://github.com/ffreemt/fetch-deepl
 # poetry add git+https://github.com/ffreemt/fetch-deepl
 # git clone https://github.com/ffreemt/fetch-deepl && cd fetch-deepl
