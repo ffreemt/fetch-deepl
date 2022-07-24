@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "fetch-deepl"
-version = "0.1.0"
+version = "0.1.1"
 description = "Fetch result from a deepl-fastapi API."
 authors = ["ffreemt"]
 license = "MIT"

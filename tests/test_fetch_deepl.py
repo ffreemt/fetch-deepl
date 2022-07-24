@@ -1,7 +1,6 @@
 """Test fetch_deepl."""
 # pylint: disable=broad-except
-from fetch_deepl import __version__
-from fetch_deepl import fetch_deepl
+from fetch_deepl import __version__, fetch_deepl
 
 
 def test_version():

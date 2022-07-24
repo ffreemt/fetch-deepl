@@ -29,4 +29,36 @@ print(fetch_deepl("There is a path to the mountain of books and diligence is the
 print(fetch_deepl("书山有路勤为径", from_lang="zh", to_lang="de"))
 # Es gibt einen Weg durch die Berge des Lernens und des Fleißes
 ```
-N.B. If you switch to a new pair of languages, the first translation may not be correct. This has to do with how `deepl-fastapi` (which this whole things is based on) functions.
+
+Supported languages can be obtained the deepl homepage, as of today:
+```python
+from fetch_deepl import lang_dict
+pprint(lang_dict)
+```
+```shell
+{'bg': 'Bulgarian',
+ 'cs': 'Czech',
+ 'da': 'Danish',
+ 'de': 'German',
+ 'el': 'Greek',
+ 'en': 'English',
+ 'es': 'Spanish',
+ 'et': 'Estonian',
+ 'fi': 'Finnish',
+ 'fr': 'French',
+ 'hu': 'Hungarian',
+ 'id': 'Indonesian',
+ 'it': 'Italian',
+ 'ja': 'Japanese',
+ 'lt': 'Lithuanian',
+ 'lv': 'Latvian',
+ 'pl': 'Polish',
+ 'pt': 'Portuguese',
+ 'ro': 'Romanian',
+ 'ru': 'Russian',
+ 'sk': 'Slovak',
+ 'sl': 'Slovenian',
+ 'sv': 'Swedish',
+ 'tr': 'Turkish',
+ 'zh': 'Chinese (simpl.)'}
+```
